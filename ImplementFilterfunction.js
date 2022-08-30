@@ -10,6 +10,7 @@ Array.prototype.myFilter = function (funct) {
   return filtered;
 };
 
+// Code to filter elements greater than 2 using our own filter method
 const filteredData = array.myFilter(function (number) {
   if (number > 2) return number;
 });

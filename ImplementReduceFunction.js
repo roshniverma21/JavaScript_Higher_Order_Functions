@@ -14,4 +14,4 @@ Array.prototype.myReduce = function (callback, initialValue) {
 
     // Code to calculate sum of array elements using our own reduce method
     const arr = [1, 2, 3, 4];
-    console.log(arr.myReduce((total, elem) => total + elem));
+    console.log(arr.myReduce((total, elem) => total + elem)); // output 10
